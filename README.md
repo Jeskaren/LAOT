@@ -40,3 +40,15 @@ We provide a script to compute **Average Precision (AP)** under three occlusion 
 | without Occlusion | 0.0 - 0.2   |
 | Partial Occlusion | 0.2 - 0.8   |
 | Heavy Occlusion   | 0.8 - 1.0   |
+
+
+## 📊 Evaluation Results
+
+The following table shows the AP accuracy of 21 tracking algorithms on the LAOT dataset under three occlusion levels:
+
+| Algorithm     | Without Occlusion (8734) | Partial Occlusion (4486) | Heavy Occlusion (3190) |
+|---------------|---------------------------|----------------------------|--------------------------|
+| AQATrack      | 0.8342                    | 0.5999                     | 0.1489                   |
+| ...           | ...                       | ...                        | ...                      |
+| ZoomTrack     | 0.8264                    | 0.5854                     | 0.1680                   |
+
