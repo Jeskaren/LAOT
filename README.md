@@ -17,21 +17,10 @@
 
 ---
 
-## 📁 Dataset Structure
-LAOT/
-├── seq/
-│ ├── 0/
-│ │ ├── images/
-│ │ └── groundtruth.txt
-│ ├── 1/
-│ └── ...
-├─────────────────
+## 📁 Dataset Download
+
 📥 [Download LAOT Dataset](https://your-download-link.com/LAOT.zip)
 
-
-- `groundtruth.txt` format: `x, y, w, h, occlusion_level`  
-
----
 
 ## 📈 Evaluation
 We provide a script to compute **Average Precision (AP)** under three occlusion categories:
