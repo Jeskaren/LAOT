@@ -18,4 +18,25 @@
 ---
 
 ## 📁 Dataset Structure
+LAOT/
+├── seq/
+│ ├── 0/
+│ │ ├── images/
+│ │ └── groundtruth.txt
+│ ├── 1/
+│ └── ...
+├─────────────────
 
+
+- `groundtruth.txt` format: `x, y, w, h, occlusion_level`  
+
+---
+
+## 📈 Evaluation
+We provide a script to compute **Average Precision (AP)** under three occlusion categories:
+
+| Occlusion Level   | Range       |
+|-------------------|-------------|
+| without Occlusion | 0.0 - 0.2   |
+| Partial Occlusion | 0.2 - 0.8   |
+| Heavy Occlusion   | 0.8 - 1.0   |
